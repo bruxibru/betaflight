@@ -94,8 +94,8 @@ static portSharing_e mavlinkPortSharing;
 /* MAVLink datastream rates in Hz */
 static const uint8_t mavRates[] = {
     [MAV_DATA_STREAM_EXTENDED_STATUS] = 0, //2Hz
-    [MAV_DATA_STREAM_RC_CHANNELS] = 20, //5Hz
-    [MAV_DATA_STREAM_POSITION] = 20, //2Hz
+    [MAV_DATA_STREAM_RC_CHANNELS] = 30, //5Hz
+    [MAV_DATA_STREAM_POSITION] = 30, //2Hz
     [MAV_DATA_STREAM_EXTRA1] = 0, //10Hz
     [MAV_DATA_STREAM_EXTRA2] = 0 //2Hz
 };
